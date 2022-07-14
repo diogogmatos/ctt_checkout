@@ -11,6 +11,8 @@ and it also turned more and more complex and now I'm invested in developing this
 
 It's a simple terminal app written in Python that helps you know how much you'll need to pay for shipping to send your item with CTT.
 
+<img align="left" width="500px" alt="Opening" src="https://github.com/sassypocoyo/ctt_checkout/blob/master/assets/picture.png?raw=true" />
+
 ## Features
 
 - **Web Scraping**: Using the *BeautifulSoup* library, the program automatically fetches the latest shipping costs and other needed information from [ctt.pt](https://ctt.pt), so that the calculations are precise and always in sync with the company's prices;
