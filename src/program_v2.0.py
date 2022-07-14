@@ -9,7 +9,7 @@ import requests
 
 # WEB SCRAPING
 
-print("""-- INICIALIZAÇÃO --
+print("""\n-- INICIALIZAÇÃO --
 \nAtualizando a base de dados...""")
 
 # embalagens
@@ -284,7 +284,7 @@ def preco(penvio, pemb, pser, pce, pec, sms, peso, tipo):
     if pce != 0: print(f"Comprovativo de Entrega:        {pce:.2f} EUR")
     if pec != 0: print(f"Envio à Cobrança:               {pec:.2f} EUR")
     if sms != 0: print(f"Alertas por email e SMS:        {sms:.2f} EUR")
-    print(f"TOTAL:                          {preco:.2f} EUR")
+    print(f"TOTAL:                          {preco:.2f} EUR*")
     print("\n*NOTA: Valor do IVA incluído")
     print("\n------------------------------------------\n")
 
@@ -513,8 +513,8 @@ def azul(): # Correio Azul
 # MAIN
 
 print("""\n-- CTT CHECKOUT --
-\nEsta aplicação permite simular o preço de envio de um artigo via CTT por diversas modalidades
-> Modalidades suportadas: CORREIO EDITORIAL, CORRREIO NORMAL, CORREIO AZUL (+ em breve)
+\nEsta aplicação permite simular o preço de envio de um artigo via CTT por diversas modalidades.
+\n> Modalidades suportadas: CORREIO EDITORIAL, CORRREIO NORMAL, CORREIO AZUL (+ em breve)
 \n> NOTA: Estão incluídas as opções de embalagem que os CTT oferecem (Saquetas e Caixas), o respetivo peso e preço são incluídos no cálculo final
 \n> AVISO: Os valores apresentados servem meramente como uma aproximação baseada nos preçários disponibilizados em ctt.pt
 \n------------------\n""")
