@@ -17,7 +17,7 @@ It's a simple terminal app written in Python that helps you know how much you'll
 
 - **Web Scraping**: Using the *BeautifulSoup* library, the program automatically fetches the latest shipping costs and other needed information from [ctt.pt](https://ctt.pt), so that the calculations are precise and always in sync with the company's prices;
 - **Shipping Methods**: CTT Checkout currently supports *Correio Normal*, *Correio Azul* and *Correio Editorial*;
-- **Packaging Options**: The main packaging options offered by CTT are implemented (Saquetas and Caixas), the corresponding wheight and price of the selected package is added to the final cost;
+- **Packaging Options**: The main packaging options offered by CTT are implemented (Saquetas and Caixas), the corresponding weight and price of the selected package is added to the final cost;
 - **Additional Services**: Optional services offered by CTT for each shipping method are implemented, this includes *Serviço Especial de Registo*, *Comprovativo de Entrega*, *Envio à Cobrança* and *Alertas por email e SMS*.
 
 ## Installing and running
